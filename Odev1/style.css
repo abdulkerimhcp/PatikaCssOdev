@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+h1{
+    padding: 10px;
+    color: brown;
+}
+h2{
+    padding: 15px;
+    color: darkorchid;
+}
+p{
+    padding: 10px;
+}
+h3{
+    padding: 10px;
+    color: darksalmon;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style-type:none;
+    margin-left: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(10, 124, 105);
+}
+.menu li a:hover{
+    color: rgb(22, 184, 157);
+    cursor: pointer;
+}
+ul{
+    padding: 20px;
+}
