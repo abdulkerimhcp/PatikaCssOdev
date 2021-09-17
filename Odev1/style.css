@@ -26,6 +26,9 @@ h3{
     padding: 10px;
     color: darksalmon;
 }
+.alt-baslik{
+    align-self: flex-start;
+}
 .menu{
     display: flex;
 }
@@ -43,4 +46,9 @@ h3{
 }
 ul{
     padding: 20px;
+}
+
+.fiyat{
+    color: goldenrod;
+    font-weight: bold;
 }
